@@ -44,6 +44,9 @@ public class TambahMatkulActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 requestSimpanMatkul();
+                // As soon as button is clicked, set is as empty
+                etNamaDosen.setText("");
+                etNamaMatkul.setText("");
             }
         });
     }
